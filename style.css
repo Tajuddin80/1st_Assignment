@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d3e2ff;
+}
+#container {
+  max-width: 90%;
+  margin: auto;
+}
+.nav_bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_bar_btn {
+  cursor: pointer;
+  color: blue;
+  padding: 7px;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+.hero_container {
+  margin-top: 30px;
+  background-color: #e0beff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  min-height: 60vh;
+  align-items: center;
+}
+.btn_hero {
+  font-family: Poppins;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(21, 58, 21);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.bangladesh_2 {
+  color: rgb(114, 105, 105);
+  font-size: 23px;
+}
+.hero_words_bold {
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+/* Second section starts here */
+
+.pillers {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: poppins;
+}
+
+.first_cards_container {
+  display: flex;
+  min-width: 90%;
+  justify-content: space-between;
+}
+
+.first_card {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 330px;
+
+  text-align: left;
+  padding: 20px;
+}
+
+.first_card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.first_card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.first_card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* section 3 starts from here */
+
+.future {
+  margin: 30px 0px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: poppins;
+}
+
+.second_cards_container {
+  display: flex;
+  min-width: 90%;
+  justify-content: space-between;
+}
+
+.second_card {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(162, 197, 241);
+}
+
+.second_card img {
+  width: 50;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.second_card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.second_card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+.second_card button {
+  font-family: Poppins;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(74, 147, 236);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.third_card {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(161, 248, 197);
+}
+
+.third_card img {
+  width: 50;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.third_card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.third_card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+.third_card button {
+  font-family: Poppins;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(67, 192, 88);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.fourth_card {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(253, 202, 81, 0.61);
+}
+
+.fourth_card img {
+  width: 50;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.fourth_card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.fourth_card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+.fourth_card button {
+  font-family: Poppins;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(204, 149, 31);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.quote_container {
+  background: white;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+  height: 200px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.quote_author {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Opinion segment start here */
+
+.opinion {
+  margin: 30px 0px 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: poppins;
+}
+
+.table_container {
+  height: 250px;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(211, 206, 206);
+  border-radius: 20px;
+}
+
+.dropdown {
+  padding: 10px 15px;
+  background-color: #cde7d9;
+  border: 1px solid #aad4bd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #000000;
+  cursor: pointer;
+}
+
+tbody td {
+  border: 1px solid #555555;
+  padding: 15px;
+  border-top: 1px solid #555555;
+  font-size: 16px;
+}
+
+.recent {
+  margin: 20px 0px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: poppins;
+}
+
+.news_box {
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 30px;
+  height: 250px;
+}
+
+.news_box img {
+  border-radius: 20px;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+
+.btn_news {
+  font-family: Poppins;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(21, 58, 21);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.all_news_text img {
+  height: 30px;
+  width: 116px;
+}
+
+.news_box {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.donate_section .donate {
+  margin-top: 50px;
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.donate_section .donate_words {
+  margin-top: 20px;
+}
+
+.amount ul {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.amount ul li {
+  padding: 40px 60px;
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 800;
+  border-radius: 20px;
+  gap: 30px;
+  background-color: white;
+  list-style: none;
+}
+.amount ul .green {
+  background-color: rgb(107, 201, 207);
+}
+
+.donate_section input {
+  border-radius: 7px;
+  padding: 15px 500px;
+  border: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donate_section > button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.gap {
+  height: 30px;
+}
+
+footer .subscribe {
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe p {
+  padding-top: 20px;
+}
+
+.sub_section {
+  height: 300px;
+  border-radius: 20px;
+  background-color: rgb(107, 201, 207);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+footer input {
+  font-family: Poppins;
+  padding: 15px 180px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: none;
+}
+
+.finishing{
+    height: 200px;
+    background-color: white;
+}
+.finishing p{
+padding: 40px 0px;
+font-family: poppins;
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+
+}
+
+.finishing .icon {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+  display: flex;
+  gap: 15px;
+
+}
+
+
