@@ -23,6 +23,13 @@ body {
   padding: 7px;
   border: 1px solid blue;
   border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_bar_btn:hover {
+  background-color: blue;
+  color: white;
 }
 
 .hero_container {
@@ -34,16 +41,7 @@ body {
   min-height: 60vh;
   align-items: center;
 }
-.btn_hero {
-  font-family: Poppins;
-  padding: 15px 30px;
-  margin-top: 20px;
-  color: white;
-  background-color: rgb(21, 58, 21);
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-}
+
 .bangladesh_2 {
   color: rgb(114, 105, 105);
   font-size: 23px;
@@ -141,15 +139,42 @@ body {
   color: #666;
   margin: 0;
 }
-.second_card button {
+.second_card button,
+.third_card button,
+.fourth_card button {
   font-family: Poppins;
   padding: 15px 30px;
   margin-top: 20px;
   color: white;
-  background-color: rgb(74, 147, 236);
   border-radius: 6px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Individual background colors */
+.second_card button {
+  background-color: rgb(74, 147, 236);
+}
+.second_card button:hover {
+  background-color: rgb(54, 124, 215);
+  transform: translateY(-2px);
+}
+
+.third_card button {
+  background-color: rgb(67, 192, 88);
+}
+.third_card button:hover {
+  background-color: rgb(50, 165, 70);
+  transform: translateY(-2px);
+}
+
+.fourth_card button {
+  background-color: rgb(204, 149, 31);
+}
+.fourth_card button:hover {
+  background-color: rgb(177, 128, 22);
+  transform: translateY(-2px);
 }
 
 .third_card {
@@ -180,16 +205,6 @@ body {
   color: #666;
   margin: 0;
 }
-.third_card button {
-  font-family: Poppins;
-  padding: 15px 30px;
-  margin-top: 20px;
-  color: white;
-  background-color: rgb(67, 192, 88);
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-}
 
 .fourth_card {
   margin-top: 40px;
@@ -218,16 +233,6 @@ body {
   font-size: 14px;
   color: #666;
   margin: 0;
-}
-.fourth_card button {
-  font-family: Poppins;
-  padding: 15px 30px;
-  margin-top: 20px;
-  color: white;
-  background-color: rgb(204, 149, 31);
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
 }
 
 .quote_container {
@@ -323,7 +328,7 @@ th {
   height: 200px;
   width: 300px;
 }
-
+.btn_hero,
 .btn_news {
   font-family: Poppins;
   padding: 15px 30px;
@@ -333,6 +338,13 @@ th {
   border-radius: 6px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn_hero:hover,
+.btn_news:hover {
+  background-color: rgb(34, 100, 34); /* Slightly brighter green */
+  transform: translateY(-2px); /* Subtle lift effect */
 }
 
 .all_news_text img {
