@@ -255,20 +255,42 @@ body {
 /* Opinion segment start here */
 
 .opinion {
-  margin: 30px 0px 20px;
+  margin: 30px 0 20px;
   font-size: 30px;
   font-weight: bolder;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .table_container {
-  height: 250px;
-  align-items: center;
   background-color: white;
-  display: flex;
-  justify-content: space-between;
   border: 2px solid rgb(211, 206, 206);
   border-radius: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+}
+
+thead {
+  background-color: #e6f1ec;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+  color: #333;
 }
 
 .dropdown {
@@ -279,13 +301,6 @@ body {
   font-size: 14px;
   color: #000000;
   cursor: pointer;
-}
-
-tbody td {
-  border: 1px solid #555555;
-  padding: 15px;
-  border-top: 1px solid #555555;
-  font-size: 16px;
 }
 
 .recent {
@@ -414,27 +429,23 @@ footer input {
   border: none;
 }
 
-.finishing{
-    height: 200px;
-    background-color: white;
+.finishing {
+  height: 200px;
+  background-color: white;
 }
-.finishing p{
-padding: 40px 0px;
-font-family: poppins;
-font-size: 30px;
-font-weight: bolder;
-text-align: center;
-
+.finishing p {
+  padding: 40px 0px;
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .finishing .icon {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
   display: flex;
   gap: 15px;
-
 }
-
-
